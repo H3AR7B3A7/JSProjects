@@ -13,6 +13,21 @@ body {
     min-height: 100vh;
 }
 
+button{
+    background-color: rebeccapurple;
+    color: white;
+    padding: 1rem;
+    border-radius: 5px;
+    border: none;
+}
+
+button:hover,
+button:active,
+button:focus {
+	border: 3px solid purple; 
+	outline: 0;
+}
+
 #container {
     position: fixed;
     bottom: 10px;
